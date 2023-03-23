@@ -113,30 +113,7 @@ function totalCost(product){
 }
 
 
-// function displayCart(){
-        
-// let pr = document.getElementById('cartItems')
-    
-// let cartCount = localStorage.getItem("productInCart")
-// cartCount = JSON.parse(cartCount)
-// for (let i = 0; i < 2; i++) {
-//     pr.innerHTML =`
-//     <div id="item1" class="bg-[#F8F9FA] w-3/5 h-36 py-2 mt-8 flex items-center">
-//                     <img src="${cartCount.path}" class="w-24 h-32 mx-2" alt="">
-//                     <div id="productDes" class="pl-4 flex flex-col items-start gap-y-4 justify-between ">
-//                         <div class="">
-//                             <p class="text-base font-medium ">${cartCount.name}</p>
-//                             <p class="text-sm text-[#666666]">${cartCount.inCart}</p>
-//                         </div>
-
-//                         <div class="">
-//                             <p class="text-base font-semibold">${cartCount.price}</p>
-//                         </div>
-//                     </div>
-//                 </div>
-//     `
-// }
-// }
+// 
 
 onLoadItemNumber()
 // displayCart()
