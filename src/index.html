@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="../dist/output.css">0 -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../dist/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
 </head>
 
 <body>
     <header>
         <nav class="w-full flex items-center justify-between border">
-            <div id="logo" class="text-2xl ml-16">Logo</div>
+            <div id="logo" class="text-2xl ml-16"><a href="index.html" target="_parent">Logo</a></div>
             <div id="navtabs" class=" w-1/4 h-12 mr-16 flex items-center justify-end gap-x-4">
                 <img src="images/search.svg" class="w-7" alt="">
-                <img src="images/cart.svg" class="w-7" alt="">
+                <a href="cart.html" class="cart flex " target="_parent"><img src="images/cart.svg" class="w-7" alt=""><span>0</span></a>
                 <img src="images/profile.svg" class="w-7" alt="">
             </div>
         </nav>
@@ -44,7 +44,7 @@
             <div id="row1" class=" mt-8 flex items-center justify-evenly">
                 <div id="product1" class="w-1/4 ">
                     <div class="productImg bg-[#F8F9FA] w-full h-80 flex items-center justify-center">
-                        <img src="images/product1.png" class="w-3/4 h-5/6" alt="">
+                        <img src="images/Pixel.png" class="w-3/4 h-5/6" alt="">
                     </div>
                     <div class="productDescription p-2 flex items-center justify-between">
                         <div class="">
@@ -52,8 +52,8 @@
                             <p id="productPrice" class="text-sm text-[#666666]">₹76,500</p>
                         </div>
                         <div class="">
-                            <button onclick="SaveItem(this)"
-                                class="w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
+                            <button 
+                                class="addToCart Cart1 w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
                         </div>
 
                     </div>
@@ -69,8 +69,8 @@
                             <p id="productPrice" class="text-sm text-[#666666]">₹31,500</p>
                         </div>
                         <div class="">
-                            <button onclick="SaveItem(this)"
-                                class="w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
+                            <button 
+                                class="addToCart Cart2 w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
                         </div>
 
                     </div>
@@ -86,7 +86,7 @@
                         </div>,
                         <div class="">
                             <button onclick="SaveItem(this)"
-                                class="w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
+                                class="addToCart Cart3 w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
                         </div>
 
                     </div>
@@ -106,8 +106,8 @@
                             <p id="productPrice" class="text-sm text-[#666666]">₹20,000</p>
                         </div>
                         <div class="">
-                            <button onclick="SaveItem(this)"
-                                class="w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
+                            <button
+                                class="addToCart Cart4 w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
                         </div>
 
                     </div>
@@ -123,8 +123,8 @@
                             <p id="productPrice" class="text-sm text-[#666666]">₹8,000</p>
                         </div>
                         <div class="">
-                            <button onclick="SaveItem(this)"
-                                class="w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
+                            <button 
+                                class="addToCart Cart5 w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]">Buy</button>
                         </div>
 
                     </div>
@@ -139,8 +139,8 @@
                             <p id="productPrice" class="text-sm text-[#666666]">₹12,000</p>
                         </div>
                         <div class="">
-                            <button class="w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]"
-                                onclick="SaveItem(this)">Buy</button>
+                            <button class="addToCart Cart6 w-24 h-8 bg-[#0077ED] text-[#ffffff] rounded-full hover:bg-[#0071e3]"
+                               ">Buy</button>
                         </div>
 
                     </div>
